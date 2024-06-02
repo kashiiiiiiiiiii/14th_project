@@ -1,0 +1,68 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding: 0 3rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+    color: white;
+}
+.nav-left,.delivery-pickup,.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.delivery,.pickup{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.kfc{
+    color: red;
+    font-size: x-large;
+}
+.delivery{
+    background: #1C1816;
+    border: 2px solid red;
+    padding: 0.2rem 1.5rem;
+    border-radius: 5px;
+}
+.delivery-text,.pickup-text{
+    text-transform: uppercase;
+}
+.pickup{
+    background: #1C1816;
+    border: none;
+    padding: 0.2rem 1.5rem;
+    border-radius: 10px;
+}
+.bucket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.bucket-zero{
+    position: absolute;
+    top: 12px;
+    color: black;
+}
+.btn button{
+    background-color: red;
+    color: white;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 7px;
+    font-size: small;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.gallery-image img{
+    object-fit: cover;
+}
